@@ -19,4 +19,4 @@ test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;  #JUnit tests
-    - cp wso2-esb-wrapper-mediator-*.jar $CIRCLE_ARTIFACTS/ # Store builded jar as an artifact to help the release process
+    - cp target/wso2-esb-wrapper-mediator-*.jar $CIRCLE_ARTIFACTS/ # Store builded jar as an artifact to help the release process
