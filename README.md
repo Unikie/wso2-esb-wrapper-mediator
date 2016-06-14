@@ -8,10 +8,18 @@ Wrapper Mediator is a custom WSO2 ESB mediator for wrapping payload content into
 
 ## Usage
 
-### 1. Install the mediator
+### 1. Get the WSO2 ESB Wrapper Mediator jar
+
+You have two options:
+
+a) Add as a Maven/Gradle/Ivy dependency to your project. Get the dependency snippet from [here](https://bintray.com/mystes/maven/wso2-esb-wrapper-mediator/view).
+
+b) Download it manually from [here](https://github.com/Mystes/wso2-esb-wrapper-mediator/releases).
+
+### 2. Install the mediator
 Copy the `WrapperMediator-x.y.jar` to `$WSO2_ESB_HOME/repository/components/dropins/`.
 
-### 2. Use it
+### 3. Use it
 
 ```xml
 <wrapper wrapperName="{name of the wrapper element}"
