@@ -1,5 +1,5 @@
 # wso2-esb-wrapper-mediator
-
+![Build status](https://circleci.com/gh/Mystes/wso2-esb-wrapper-mediator.svg?style=shield&circle-token=40b5b04c3b62cc8f75bc8d455544a952d669018b)
 ## What is WSO2 ESB?
 [WSO2 ESB](http://wso2.com/products/enterprise-service-bus/) is an open source Enterprise Service Bus that enables interoperability among various heterogeneous systems and business applications.
 
